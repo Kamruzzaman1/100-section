@@ -1,0 +1,86 @@
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	color: #656865;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #060606;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.section-padding {
+	padding: 80px 0;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 78px;
+}
+.section-title .border-btn span {
+	width: 35px;
+	height: 5px;
+	background: #2BAF14;
+	display: inline-block;
+	border-radius: 3px;
+}
+.border-btn span.balck-btn {
+	width: 20px;
+	background-color: #333;
+	margin: 0 8px;
+}
+.single-testmonial h3 {
+	font-size: 30px;
+	color: #222222;
+	font-weight: bold;
+	margin-bottom:0;
+}
+.single-testmonial {
+	font-weight: 400;
+	font-size: 20px;
+	font-style: italic;
+	word-spacing: 1.2px;
+	box-shadow: 0 0 3px #d0c2c2;
+	padding: 20px;
+	margin: 1px;
+	position: relative;
+	padding-left: 110px;
+}
+.single-testmonial::before {
+	font-family: "font awesome 5 free";
+	font-weight: 600;
+	content: "\f10e";
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	color: #3CB427;
+	line-height: 30px;
+	margin-top: -15px;
+}
+.single-testmonial::after {
+	position: absolute;
+	height: 70%;
+	width: 1.0px;
+	background: #D6D6D4;
+	top: 15%;
+	left: 70px;
+	content: "";
+	box-shadow: 0 0 1px #bbb1b1;
+}
+
+.single-testmonial h3 span {
+	display: block;
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 5px;
+}
+.owl-carousel.owl-theme.client-testmonial.owl-loaded.owl-drag .owl-dots button span {
+	width: 30px;
+	background-color: #2BAF14;
+	transition: 0.3s;
+	margin-top: 40px;
+	height: 8px;
+}
+.owl-carousel.owl-theme.client-testmonial.owl-loaded.owl-drag .owl-dots .owl-dot.active span {
+	background-color: #333;
+	width: 40px;
+}
